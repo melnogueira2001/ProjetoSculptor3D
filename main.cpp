@@ -5,8 +5,6 @@
 
 int main(void) {
 
-//---------------------------EXEMPLO---------------------------//
-
   Sculptor exemplo(50, 50, 50);//geracao de matriz
 
   exemplo.setColor(0.02, 0.3467, 0.02, 0.9); 
