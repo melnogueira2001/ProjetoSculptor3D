@@ -32,4 +32,4 @@ int main(void) {
 
   std::cout << "O ARQUIVO exemplo.off FOI CRIADO!" << std::endl;
   
-  exemplo.writeOFF("exemplo.off"); //geracao do arquivo
+  exemplo.writeOFF("exemplo.off"); } //geracao do arquivo
