@@ -12,7 +12,7 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz) {
   int i;
   int j;
   int k;
-  // contadores de interacao
+  // contadores de iteracao
   nx = _nx;
   ny = _ny;
   nz = _nz;
@@ -49,7 +49,7 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz) {
 Sculptor::~Sculptor() {
   int i;
   int j;
-  // contadores de interação
+  // contadores de iteração
 
   for (i = 0; i < nx; i++) {
     for (j = 0; j < ny; j++) {
@@ -96,7 +96,7 @@ void Sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1) {
   int i;
   int j;
   int k;
-  // contadores de interação
+  // contadores de iteração
 
   if ((this->nx >= x0 && this->nx >= x1) &&
       (this->ny >= y0 && this->ny >= y1) &&
@@ -121,7 +121,7 @@ void Sculptor::cutBox(int x0, int x1, int y0, int y1, int z0, int z1) {
   int i;
   int j;
   int k;
-  // contadores de interação
+  // contadores de iteração
 
   if ((this->nx >= x0 && this->nx >= x1) &&
       (this->ny >= y0 && this->ny >= y1) &&
