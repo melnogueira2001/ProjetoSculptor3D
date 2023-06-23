@@ -1,4 +1,4 @@
-#include "Sculptor.h" //declarar a classe
+#include "sculptor.h" //declarar a classe
 #include "voxel.h"    //declarar a classe
 #include <cmath>
 #include <cstdlib>
